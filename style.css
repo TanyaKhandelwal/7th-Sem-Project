@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+p {
+  color: #8f8f8f;
+  margin: 2% 3%;
+  line-height: 2;
+}
+h2, h3, h4, h5{
+  /* color: #40514E; */
+  font-family: "Montserrat-Bold";
+}
+
+h1 {
+  /* color: #66BFBF; */
+  /* font-family: "Montserrat-Bold"; */
+  font-family: 'Catamaran';
+  padding-top: 10px;
+}
+
+
+#title {
+  /* padding: 0.5rem 0 0.5rem; */
+  line-height: 0.5;
+  overflow: hidden;
+  /* z-index: 1; */
+  /* background-color: #EBFAD1; */
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  padding:0;
+}
+
+
+#service{
+  /* background-color: #93D9A3; */
+  /* background-image: linear-gradient(to bottom right, #EBFAD1, #66BFBF); */
+  width: 100%;
+  margin:0;
+  padding: 0 6% 2%;
+  /* color: #fff; */
+}
+.about{
+  margin:15% 0 2% 50%;
+
+}
+
+.navbar-toggler{
+  margin-right: 5%;
+}
+
+.navbar-brand {
+  margin: 0 20% 0 4% ;
+}
+
+.nav-item {
+  padding:0 1.5rem;
+  font-family:"Montserrat-Bold";
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.first {
+  width: 50%;
+  float: left;
+}
+
+.service-text{
+  margin: 0;
+  padding:0;
+  color: #000;
+  font-size: 1.2rem;
+
+}
+.text{
+  text-align: justify;
+}
